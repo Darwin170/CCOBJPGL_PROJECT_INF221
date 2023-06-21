@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReceiptController">
+   <children>
+      <ImageView fitHeight="84.0" fitWidth="112.0" layoutX="136.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Downloads/logo.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="39.0" layoutY="84.0" text="Order" />
+      <Label layoutX="149.0" layoutY="84.0" text="price order" />
+      <Label layoutX="259.0" layoutY="84.0" text="quantity" />
+      <Label fx:id="name1" layoutX="39.0" layoutY="114.0" text="Label" visible="false" />
+      <Label fx:id="name2" layoutX="39.0" layoutY="132.0" text="Label" visible="false" />
+      <Label fx:id="name3" layoutX="39.0" layoutY="150.0" text="Label" visible="false" />
+      <Label fx:id="name4" layoutX="39.0" layoutY="168.0" text="Label" visible="false" />
+      <Label fx:id="name5" layoutX="39.0" layoutY="186.0" text="Label" visible="false" />
+      <Label fx:id="name6" layoutX="39.0" layoutY="204.0" text="Label" visible="false" />
+      <Label fx:id="name7" layoutX="39.0" layoutY="222.0" text="Label" visible="false" />
+      <Label fx:id="name8" layoutX="39.0" layoutY="240.0" text="Label" visible="false" />
+      <Label fx:id="name9" layoutX="39.0" layoutY="258.0" text="Label" visible="false" />
+      <Label fx:id="name10" layoutX="39.0" layoutY="276.0" text="Label" visible="false" />
+      <Label fx:id="name11" layoutX="39.0" layoutY="294.0" text="Label" visible="false" />
+      <Label fx:id="name12" layoutX="39.0" layoutY="312.0" text="Label" visible="false" />
+      <Label fx:id="name13" layoutX="39.0" layoutY="330.0" text="Label" visible="false" />
+      <Label fx:id="name14" layoutX="39.0" layoutY="348.0" text="Label" visible="false" />
+      <Label fx:id="price1" layoutX="164.0" layoutY="114.0" text="Label" visible="false" />
+      <Label fx:id="price2" layoutX="164.0" layoutY="132.0" text="Label" visible="false" />
+      <Label fx:id="price3" layoutX="164.0" layoutY="150.0" text="Label" visible="false" />
+      <Label fx:id="price4" layoutX="164.0" layoutY="168.0" text="Label" visible="false" />
+      <Label fx:id="price5" layoutX="164.0" layoutY="186.0" text="Label" visible="false" />
+      <Label fx:id="price6" layoutX="164.0" layoutY="204.0" text="Label" visible="false" />
+      <Label fx:id="price7" layoutX="164.0" layoutY="222.0" text="Label" visible="false" />
+      <Label fx:id="price8" layoutX="164.0" layoutY="240.0" text="Label" visible="false" />
+      <Label fx:id="price9" layoutX="164.0" layoutY="258.0" text="Label" visible="false" />
+      <Label fx:id="price10" layoutX="164.0" layoutY="276.0" text="Label" visible="false" />
+      <Label fx:id="price11" layoutX="164.0" layoutY="294.0" text="Label" visible="false" />
+      <Label fx:id="price12" layoutX="164.0" layoutY="312.0" text="Label" visible="false" />
+      <Label fx:id="price13" layoutX="164.0" layoutY="330.0" text="Label" visible="false" />
+      <Label fx:id="price14" layoutX="164.0" layoutY="348.0" text="Label" visible="false" />
+      <Label fx:id="qty1" layoutX="267.0" layoutY="114.0" text="Label" visible="false" />
+      <Label fx:id="qty2" layoutX="267.0" layoutY="132.0" text="Label" visible="false" />
+      <Label fx:id="qty3" layoutX="267.0" layoutY="150.0" text="Label" visible="false" />
+      <Label fx:id="qty4" layoutX="267.0" layoutY="168.0" text="Label" visible="false" />
+      <Label fx:id="qty5" layoutX="267.0" layoutY="186.0" text="Label" visible="false" />
+      <Label fx:id="qty6" layoutX="267.0" layoutY="204.0" text="Label" visible="false" />
+      <Label fx:id="qty7" layoutX="267.0" layoutY="222.0" text="Label" visible="false" />
+      <Label fx:id="qty8" layoutX="267.0" layoutY="240.0" text="Label" visible="false" />
+      <Label fx:id="qty9" layoutX="267.0" layoutY="258.0" text="Label" visible="false" />
+      <Label fx:id="qty10" layoutX="267.0" layoutY="276.0" text="Label" visible="false" />
+      <Label fx:id="qty11" layoutX="267.0" layoutY="294.0" text="Label" visible="false" />
+      <Label fx:id="qty12" layoutX="267.0" layoutY="312.0" text="Label" visible="false" />
+      <Label fx:id="qty13" layoutX="267.0" layoutY="330.0" text="Label" visible="false" />
+      <Label fx:id="qty14" layoutX="267.0" layoutY="348.0" text="Label" visible="false" />
+      <Label fx:id="total" layoutX="267.0" layoutY="366.0" text="Label" visible="false" />
+      <Line endX="255.00003051757812" layoutX="101.0" layoutY="366.0" startX="-100.0" />
+      <Label fx:id="total1" layoutX="215.0" layoutY="366.0" text="Total:" />
+   </children>
+</AnchorPane>
